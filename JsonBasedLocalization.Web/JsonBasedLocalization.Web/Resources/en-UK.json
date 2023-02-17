@@ -1,3 +1,5 @@
 {
-"Welcome": "Welcome, How are you?"
+  "Welcome": "Welcome {0}, How are you?",
+  "home": "Home",
+  "privacy": "Privacy"
 }

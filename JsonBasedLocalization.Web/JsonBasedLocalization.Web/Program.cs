@@ -33,7 +33,7 @@ namespace JsonBasedLocalization.Web
 
             app.UseAuthorization();
             
-            var supportedCulures = new[] {"en-UK", "ar-EG", "de-ED" };
+            var supportedCulures = new[] {"en-UK", "ar-EG", "de-DE" };
             var localizationOptions = new RequestLocalizationOptions().SetDefaultCulture(supportedCulures[0]).AddSupportedCultures(supportedCulures).AddSupportedUICultures(supportedCulures);
             app.UseRequestLocalization(localizationOptions);
             
